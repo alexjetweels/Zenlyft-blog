@@ -24,6 +24,10 @@
     animation: ticker 10s linear infinite;
   }
 
+  .tag {
+    @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight;
+  }
+
   @keyframes ticker {
     0% {
       transform: translateX(100%);
