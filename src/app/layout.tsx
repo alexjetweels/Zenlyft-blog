@@ -7,7 +7,8 @@ const dmSans = DM_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Zenlyft',
-  description: 'Zenlyft is a platform for mental health and wellness.',
+  description: 'Zenlyft is a platform for habit trackers.',
+  keywords: ['Zenlyft', 'habit tracker', 'productivity', 'habit', 'tracker'],
 };
 
 export default function RootLayout({
