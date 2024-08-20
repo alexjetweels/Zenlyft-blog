@@ -6,7 +6,7 @@ import { twMerge } from 'tailwind-merge';
 const dmSans = DM_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Zenlyft',
+  title: 'Zenlyft | Habit Tracker',
   description: 'Zenlyft is a platform for habit trackers.',
   keywords: ['Zenlyft', 'habit tracker', 'productivity', 'habit', 'tracker'],
 };
