@@ -1,5 +1,5 @@
 import ArrowRight from '@/assets/arrow-right.svg';
-import Logo from '@/assets/logo.png';
+import Logo from '@/assets/zenlyft.png';
 import Image from 'next/image';
 import MenuIcon from '@/assets/menu.svg';
 
@@ -19,7 +19,10 @@ export const Header = () => {
       <div className='py-5'>
         <div className='container'>
           <div className='flex items-center justify-between'>
-            <Image src={Logo} alt='Zenlyft logo' height={60} width={60} />
+            <div className='flex gap-1 items-center bg-black/90 rounded-lg text-white px-3'>
+              <Image src={Logo} alt='Zenlyft logo' height={60} width={60} />{' '}
+              <span className='text-2xl font-bold'>Zenlyft</span>
+            </div>
             <MenuIcon className='h-5 w-5 md:hidden' />
 
             <nav className='hidden md:flex gap-6 text-black/60 items-center'>
